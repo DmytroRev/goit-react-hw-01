@@ -2,7 +2,7 @@ import userData from "../../userData.json"
 import css from "../Profile/Profile.module.css"
 
 export default function Profile() {
-    return (
+    return (  
         <div className={css.containerDesign}>
   <div className={css.container}>
     <img className={css.avatar}

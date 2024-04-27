@@ -1,27 +1,26 @@
 .containerDesign {
     width: 280px;
-    height: 360px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 50px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+        background-color: #f5f5f5;
 }
 
 .container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    background-color: #f5f5f5;
 }
 
 .avatar {
     border-radius: 50%;
     background-color: #333;
     width: 150px;
+    margin-top: 20px;
 }
 
 .name {
@@ -38,7 +37,9 @@ display: flex;
 justify-content: center;
 padding-left: 0;
 border-top: 1.5px solid rgba(0, 0, 0, 0.5);
-
+    background-color: lightgrey;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
 }
 
 .list {
@@ -47,6 +48,5 @@ border-top: 1.5px solid rgba(0, 0, 0, 0.5);
     flex-direction: column;
     border-bottom: none;
     padding: 20px;
-    background-color: lightgrey;
 }
 

@@ -1,0 +1,15 @@
+.containerFriend {
+    /* display: flex; */
+}
+
+.name {
+    color: black;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
