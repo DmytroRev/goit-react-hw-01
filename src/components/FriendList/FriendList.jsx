@@ -1,8 +1,7 @@
-import friends from "../../friends.json"
 import { FriendListItem } from "../FriendListItem/FriendListItem"
 import css from "../FriendList/FriendList.module.css"
 
-export function FriendList() {
+export function FriendList({ friends }) {
   return (
     <ul className={css.containerFriend}>
       {friends.map((friend) => (
